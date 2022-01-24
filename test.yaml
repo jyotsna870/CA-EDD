@@ -1,0 +1,30 @@
+datafile:
+  foldername: "a/b/c"
+  filename: "test"
+  validations:
+    {
+      "validationlist": [
+        {
+          name: "null_check",
+          columns: [ "first_name", "last_name" ],
+          replacment_value: 0
+        },
+        {
+          name: "data_check",
+          columns: [ "first_name","last_name" ],
+          datatype: "string"
+        },
+        {
+          name: "data_check",
+          columns: [ "id" ],
+          datatype: "int"
+        }
+      ]
+    }
+  output:
+    datafile: "output-data-d1-<timestamp>.csv"
+    statusfile: "output-status-d1-<timestamp>.csv"
+
+
+
+
