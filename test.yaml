@@ -16,7 +16,7 @@ datafile:
         },
         {
           name: "data_check",
-          columns: [ "id" ],
+          columns: [ "id", "first_name" ],
           datatype: "int"
         }
       ]

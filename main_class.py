@@ -2,7 +2,7 @@
 *************************************************************************************************
 
 Date: 1/24/2022
-functionaltiy : Main class to start spark job
+function : Main class to start spark job
 commands to run the class python main_class.py test.yaml
 
 ************************************************************************************************
